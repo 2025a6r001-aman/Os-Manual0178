@@ -1,0 +1,4 @@
+Experiment 4: System session auditing, Unix Epoch arithmetic, and stream-based document editing.
+user_time.sh: Extracts user login timestamps from the who database via awk, converts them to Unix Epoch seconds with date +%s, and calculates active working duration.
+display_range.sh: Slices and prints lines between specified start and end boundaries using sed -n "${start},${end}p".
+delete_word.sh: Removes all instances of a target word across multiple files using shift and in-place sed -i deletion.
